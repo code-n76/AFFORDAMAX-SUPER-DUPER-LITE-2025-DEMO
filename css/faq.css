@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "sf-pro-regular";
+  src: url(./font/sf-pro-regular.OTF);
+}
+@font-face {
+  font-family: "space-tech-italic";
+  src: url(./font/space-tech-italic.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#accordion {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  text-align: center;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+#accordion li {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
+#accordion li label {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+#accordion li label span {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 22px;
+  transform: rotate(90deg);
+}
+#accordion label + input[type="radio"] {
+  display: none;
+}
+#accordion .content {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transform: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content {
+  max-height: 400px;
+}
+.maindiv {
+  text-align: center;
+}
+h1 {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 50px;
+}

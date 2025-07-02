@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "sf-pro-regular";
+  src: url(./font/sf-pro-regular.OTF);
+}
+@font-face {
+  font-family: "space-tech-italic";
+  src: url(./font/space-tech-italic.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-body-bg: linear-gradient(to right, #8c52ff, #8c52ff);
+  --clr-btns-text: rgb(0, 0, 0);
+  --clr-btns-text-fcs: rgb(0, 0, 0);
+  --clr-btns-bg: rgb(255, 255, 255);
+  --clr-btns-actv-bg: rgb(255, 255, 255);
+  --clr-link: rgb(255, 255, 255);
+  --clr-link-fcs: rgb(13, 201, 1);
+  --clr-rates-th-bg: rgb(0, 0, 0);
+  --clr-rates-td-bg: rgb(255, 255, 255);
+  --clr-rates-th-text: rgb(255, 255, 255);
+  --clr-rates-td-text: rgb(0, 0, 0);
+  --clr-rates-sup: rgb(13, 201, 1);
+  --clr-brand-text: rgb(255, 255, 255);
+  --clr-phdr-text: rgb(0, 0, 0);
+  --clr-phdr-text-fcs: rgba(0, 0, 0, 0.4);
+  --clr-input-bg: transparent;
+  --clr-input-border: rgba(0, 0, 0, 0.5);
+  --clr-input-border-fcs: rgb(0, 0, 0);
+}

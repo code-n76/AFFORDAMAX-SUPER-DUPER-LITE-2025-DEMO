@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "sf-pro-regular";
+  src: url(./font/sf-pro-regular.OTF);
+}
+@font-face {
+  font-family: "space-tech-italic";
+  src: url(./font/space-tech-italic.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "sf-pro-regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rates {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  overflow: hidden;
+  border-radius: none;
+}
+.rates tr {
+  background: var(--clr-rates-td-bg);
+  color: var(--clr-rates-td-text);
+}
+.thead th,
+.tfoot th {
+  background: var(--clr-rates-th-bg);
+  color: var(--clr-rates-th-text);
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 30px;
+}
+
+td {
+  height: 30px;
+}
+tr {
+  height: 30px;
+}
