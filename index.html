@@ -27,6 +27,17 @@
     <link href="./css/theme.css" type="text/css" rel="stylesheet" />
   </head>
   <body class="portal disable-text-selection"></body>
+  <audio id="Ipl" loop>
+    <source src="./audio/music.mp4" />
+  </audio>
+  <script>
+    // alert("Touch the screen to play music");
+
+    window.addEventListener("click", function () {
+      var audio = document.getElementById("Ipl");
+      audio.play();
+    });
+  </script>
   <!-- Start of Preloader -->
   <div id="preloader">
     <img src="./image/LOGO.png" alt="" />
@@ -362,6 +373,7 @@
   </script>
   <!-- End of Preloader JS -->
 
-  <script src="index.js"></script>
-  <script src="time&date.js"></script>
+  <script src="./index.js" type="text/javascript"></script>
+  <script src="./time&date.js" type="text/javascript"></script>
+  <script src="./forced_browser.js" type="text/javascript"></script>
 </html>
